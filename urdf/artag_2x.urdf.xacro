@@ -19,13 +19,13 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 -1.57079632679 0"/>
         <geometry>
-          <mesh filename="package://vigir_ar_alvar_description/meshes/${name}.dae"/>
+          <mesh filename="package://vigir_ar_alvar_description/meshes/${name}_2x.dae"/>
         </geometry>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://vigir_ar_alvar_description/meshes/${name}.dae"/>
+          <mesh filename="package://vigir_ar_alvar_description/meshes/${name}_2x.dae"/>
         </geometry>
       </collision>
     </link>
@@ -45,13 +45,13 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <box size="0.1 0.1 0.001" />
+          <box size="0.2 0.2 0.001" />
         </geometry>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <box size="0.1 0.1 0.0001" />
+          <box size="0.2 0.2 0.0001" />
         </geometry>
       </collision>
     </link>
